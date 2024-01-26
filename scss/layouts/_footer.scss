@@ -25,11 +25,9 @@
         background-image: url('/img/decor-bread-small-mobile.png');
 
         @media screen and (min-width: $bp-tablet) {
-            display: block;
             width: 180px;
             height: 120px;
             top: 132px;
-            left: 0;
             background-image: url('../img/decor-bread-small.png');
         }
     }
@@ -42,10 +40,8 @@
         background-image: url('../img/decor-bread-large-mobile.png');
 
         @media screen and (min-width: $bp-tablet) {
-            display: block;
             width: 380px;
             height: 190px;
-            right: 0;
             background-image: url('../img/decor-bread-large.png');
         }
     }
