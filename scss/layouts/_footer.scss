@@ -11,6 +11,7 @@
     &::after,
     &::before {
         position: absolute;
+        bottom: 0;
         background-repeat: no-repeat;
         content: '';
     }
