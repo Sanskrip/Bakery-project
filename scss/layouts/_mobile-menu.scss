@@ -16,5 +16,11 @@
         position: absolute;
         top: 16px;
         right: 24px;
+        cursor: pointer;
+        fill: var(--color-primary-dark);
+        background-color: transparent;
+        border: none;
+        width: 32px;
+        height: 32px;
     }
 }
