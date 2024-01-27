@@ -44,20 +44,19 @@
         margin-bottom: 32px;
     }
 
+    &__btn-close {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        cursor: pointer;
+        fill: var(--color-primary-dark);
+        background-color: transparent;
+        border: none;
+        width: 32px;
+        height: 32px;
+    }
 
     &__button {
         margin: 0 auto 24px;
-    }
-}
-
-.modal__btn-close {
-    fill: var(--color-primary-dark);
-    background-color: transparent;
-    border: none;
-    width: 32px;
-    height: 32px;
-
-    &:hover {
-        fill: var(--color-secondary-light);
     }
 }
