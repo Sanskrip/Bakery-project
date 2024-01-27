@@ -34,11 +34,36 @@
                     </svg>
                 </button>
                 <div class="mobile-menu">
+                    <button class="trad-btn-open mobile-menu__hidden" type="button">.</button>
+                    <button class="chef-btn-open mobile-menu__hidden" type="button">.</button>
+                    <button class="form-btn-open mobile-menu__hidden" type="button">.</button>
+                    <button class="cont-btn-open mobile-menu__hidden" type="button">.</button>
+
                     <button class="mobile-menu__btn-close menu-btn-close" type="button">
                         <svg width="32" height="32">
                             <use href="./img/icons.svg#icon-close-btn"></use>
                         </svg>
                     </button>
+                    <div class="mobile-menu__container">
+                        <nav class="mobile-menu__nav">
+                            <a href="/">
+                                <img class="logo-mobile mobile-menu__logo" src="img/mobile-menu-logo.svg"
+                                    alt="Логотип сучасної пекарні">
+                            </a>
+                            <ul class="mobile-menu__list">
+                                <li><a class="link trad-btn-close mobile-menu__list__item"
+                                        href="#traditions-section">Наші традиції</a>
+                                </li>
+                                <li><a class="link chef-btn-close mobile-menu__list__item"
+                                        href="#chefs-section">Шеф-кухарі</a></li>
+                                <li><a class="link form-btn-close mobile-menu__list__item"
+                                        href="#formats-section">Формати</a></li>
+                                <li><a class="link cont-btn-close mobile-menu__list__item"
+                                        href="#contact-section">Контакти</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -396,6 +421,10 @@
     <script src="/js/modal.js"></script>
     <script src="/js/modal-mobile.js"></script>
     <script src="/js/mobile-menu.js"></script>
+    <script src="/js/mobile-menu-traditions.js"></script>
+    <script src="/js/mobile-menu-chefs.js"></script>
+    <script src="/js/mobile-menu-formats.js"></script>
+    <script src="/js/mobile-menu-contacts.js"></script>
 
 </body>
 
